@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title> Chuva </title>
+</head>
+
+<body>
+  <!-- Menu -->
+  <nav class="sidebar" position="fixed">
+    <div class="sidebar-header">
+      <a class="menuTitle">SLACA 2019</a>
+    </div>
+    <img src="logo.png" width="200px"/>
+    <a href="#">Apresentação</a>
+    <a href="#">Comite</a>
+    <a href="#">Autores</a>
+    <a href="#">Eixos Tematicos</a>
+    <a href="#">Trabalhos</a>
+    <a href="#">Contatos</a>
+  </nav>
+  <!-- Conteudo da Pagina -->
+  <div class="content">
+    <header>
+      <div class="align">
+        <p class="header" style="margin: 0;">Anais do Sinpósio Latino Americano de Ciencia de Alimentos</p>
+        <h1 style="margin: 0;">Anais do 13° Sinpósio Latino Americano de Ciencias de Alimentos</h1>
+        <a style="padding: 22;">ISSN: 1234-5678</a> 
+      </div>
+    </header>
+    <h2 class="title">Analise sensorial de preparaçoes funcionais desenvolvidas para escolares
+        entre 09 e 15 anos, do municipio de Campinas/SP</h2>
+    <img src="video.png"/>
+    <div class="details">
+      <h2 class="detailsTitle">Detalhes</h2>
+      <a>Tipo de Apresentação: <b>Poster</b></a><br>
+      <a>Eixo Temático: <b>Alimentação e saude (AS)</b></a><br/>
+      <a>Palavras-chaves: <b>Alimentos funcionais, Alimentação Escolar</b></a><br/>
+      <p class="authors"><b>Autores: </b></p>
+      <a>Galileo Galilei'</a><br/>
+      <a>Berta Lange de Morretes</a><br/>
+      <a>Isaac Newton</a><br/>
+      <a>Cesar Lattes</a><br/>
+      <a>Stephen Hawking</a><br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <em>
+      <a>Universidade Estadual de Campinas</a><br/>
+      <a>Universidade de São Paulo</a><br/>
+      <a>Instituto Nacional de Pesquisas de Alimentos</a><br/>
+      <a>Universidade Federal do Rio de Janeiro</a><br/>
+      <a>Universidade Federal do Mato Grosso do Sul</a>
+      </em>
+    </div>
+    <div class="resume">
+      <h2 class="resumeTitle">Resumo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien dui, sodales sit amet risus eu, laoreet dapibus justo. Donec molestie odio nisl, 
+      ac tempor dui vulputate in. Morbi vitae vestibulum tortor. Proin volutpat metus vitae ipsum consectetur ultricies. Curabitur tincidunt interdum sapien, ut 
+      suscipit libero laoreet in. Duis et tristique ante. Phasellus et tincidunt tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+      turpis egestas. Morbi pharetra ante odio, <span id="dots">...</span><span id="more">eget tristique libero sodales et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+      turpis egestas. Sed et quam sit amet dolor molestie semper ac ut libero. Proin mattis, erat et posuere fringilla, turpis ligula sodales augue, sit amet porta 
+      ex nunc non erat. Mauris sit amet tempor turpis, et imperdiet velit. Nulla porttitor convallis mi.</br>
+
+      Ut in ultricies metus. Vestibulum eu urna quam. Proin id sagittis tellus. Etiam hendrerit malesuada tempor. Phasellus venenatis egestas eros ac tempus. 
+      Suspendisse dapibus neque eu orci iaculis, quis porta metus ultricies. Fusce tristique odio quis volutpat condimentum. Pellentesque habitant morbi tristique 
+      senectus et netus et malesuada fames ac turpis egestas. Aliquam scelerisque velit vel dui placerat pretium. Donec ut nisl fermentum, congue quam bibendum, 
+      egestas odio. Mauris quis nibh sit amet massa viverra imperdiet non sit amet enim. Duis placerat nulla non lacus sollicitudin, eu volutpat dolor finibus. Nullam 
+      ac leo laoreet, semper odio nec, pharetra est. Sed lobortis magna et ex viverra, quis placerat leo mollis.</br>
+      
+      Phasellus vulputate diam nec dapibus congue. Nulla aliquet felis vitae arcu interdum, a rhoncus ipsum vehicula. Aliquam mattis condimentum lectus, sed efficitur 
+      dolor pharetra ac. Duis luctus, sem ac sollicitudin malesuada, tellus odio blandit enim, a semper massa nulla id ipsum. Duis malesuada, nunc eget aliquam viverra,
+      est quam lacinia diam, a feugiat ipsum felis sit amet orci. Sed interdum porttitor faucibus. Vivamus consectetur efficitur ipsum eu vestibulum. Cras scelerisque 
+      nisi eu cursus vestibulum. Aenean ac porta mi. Aliquam faucibus quam nec arcu feugiat volutpat. Praesent accumsan euismod nulla sed suscipit. Fusce congue auctor 
+      molestie. Nulla at luctus tortor. Donec nisi dui, auctor ut pharetra ut, lacinia id ante.</span></p>
+      <button onclick="myFunction()" id="myBtn">Ler Mais</button>
+      <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Ler Mais"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Ler Menos"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+    </div>
+    <br>
+    <div class="discussao">
+      <h2 class="discussaoTitle">Discussões</h2>
+      <h2 class="discussaoTitle2">Compartilhe suas ideias ou dúvidas com os autores!</h2>
+      <img src="icones.png" class="icons">
+      <p class="discussaoText">Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus<br>
+        questionamentos ou sugestões para o autor!
+      </p>
+      
+      <div class="buttonCollapse">
+        <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#demo">Criar novo tópico</button>
+        <div id="demo" class="collapse">
+          <p class="commentaryTitle">Assunto</p>
+          <textarea value="O assunto vai aqui!" class="commentaryArea"></textarea>
+          <p class="commentaryContent">Conteudo</p>
+          <textarea class="commentaryArea2"></textarea>
+          <br>
+          <button type="button" class="btn btn-warning">Enviar</button>
+        </div>
+        <div class="comment1">
+          <h4 class="commentAssunt1"> Assunto da Pergunta vai aqui</h4>
+          <p class="commentAuthor1"> Carlos Henrique Santos</p>
+          </br>
+          <p class="question">Comecinho da pergunta vai aqui. Comecinho da pergunta vai aqui. Comecinho da pergunta vai aqui. Comecinho da pergunta vai aqui.</p>
+          <i style="font-size:20px" class="dots">&#8942;</i>
+          <i style="font-size:20px" class="fa">&#xf004;</i>
+          <p class="awsner1"><em> 1 Like    1 Resposta</em></p>
+        </div>
+        <div class="comment2">
+          <h4 class="commentAssunt2"> Assunto da Pergunta vai aqui</h4>
+          <p class="commentAuthor2"> Carlos Henrique Santos</p>
+          </br>
+          <p class="question2">Comecinho da pergunta vai aqui. Comecinho da pergunta vai aqui. Comecinho da pergunta vai aqui. Comecinho da pergunta vai aqui.</p>
+          <i style="font-size:20px" class="dots2">&#8942;</i>
+          <i style="font-size:20px" class="fa">&#xf004;</i>
+          <p class="awsner2"><em> 1 Like    1 Resposta</em></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <img src="logoempresa.png"/>
+      <div class="footerText">
+          <p>
+            <b>Preservar a memoria do evento e ampliar o acesso ao conhecimento cientifico</b> gerado em eventos é a razão 
+            de ser da plataforma Galoá Proceedings.
+          </p>
+          <p>
+            Os trabalhos publicados aqui tem maior alcance e ficam disponiveis para toda a comunidade cientifica, mantendo
+            aceso o debate cientifico formentado pelos encontros e aumentando o impacto do evento.
+          </p>
+      </div>
+   </footer>
+  </div>
+</body>
+</html>
